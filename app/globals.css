@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* No global colors; components decide their own colors */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f9fafb;
+  color: #0f172a;
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}
