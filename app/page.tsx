@@ -21,7 +21,7 @@ const sectionTitleVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
-const cardHover = {
+const cardHover: Variants = {
   hover: { 
     y: -6, 
     scale: 1.02, 
